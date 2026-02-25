@@ -1,0 +1,13 @@
+# Backups
+*.backup*.html
+*.backup*.css
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
