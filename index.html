@@ -19,12 +19,13 @@
             <a href="#what-is">About</a>
             <a href="#stream">Stream</a>
             <a href="#how-to-buy">How to buy</a>
-            <a href="#tokenomics">Tokenomics</a>
-            <a href="#community">Community</a>
             <a href="#gallery">Gallery</a>
-            <a href="#lore">Lore</a>
           </nav>
-          <a href="#how-to-buy" class="top-nav-cta">Buy ANTFUN</a>
+          <div class="top-nav-contract">
+            <code class="contract-address" id="contract-address" title="Click to copy">To be announced</code>
+            <button type="button" class="contract-copy" id="contract-copy" aria-label="Copy address">Copy</button>
+          </div>
+          <a href="#stream" class="top-nav-cta">Watch stream</a>
         </div>
       </header>
 
@@ -81,22 +82,6 @@
         </div>
       </header>
 
-      <section class="accent-strip" id="join">
-        <div class="accent-strip-inner">
-          <div class="accent-socials">
-            <h2 class="accent-title">SOCIALS</h2>
-            <p class="accent-subtitle">Join the ANTFUN colony</p>
-            <div class="accent-icons">
-              <a href="#" class="accent-icon social-x" target="_blank" rel="noreferrer" aria-label="X (Twitter)"></a>
-              <a href="#" class="accent-icon social-tg" target="_blank" rel="noreferrer" aria-label="Telegram"></a>
-              <a href="#" class="accent-icon social-dex" target="_blank" rel="noreferrer" aria-label="Dexscreener"></a>
-            </div>
-          </div>
-          <a href="#how-to-buy" class="accent-cta">Buy ANTFUN</a>
-          <div class="accent-brand">ANTFUN</div>
-        </div>
-      </section>
-
       <main>
         <section class="section section-split" id="what-is">
           <div class="section-text">
@@ -137,10 +122,16 @@
               </p>
             </div>
             <div class="stream-frame">
-              <!-- Replace iframe src with your actual pump.fun / YouTube / Twitch stream -->
-              <div class="stream-placeholder">
-                <span>Stream player placeholder</span>
-              </div>
+              <a
+                href="https://pump.fun/coin/66pmyZRY13aViSDHMZy6LxYLb4v1tqJeBt4CBaVtpump"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="stream-card"
+              >
+                <span class="stream-card-icon">▶</span>
+                <span class="stream-card-title">Watch the stream on pump.fun</span>
+                <span class="stream-card-desc">Live ant farm · chart · buy</span>
+              </a>
             </div>
             <p class="stream-caption">
               If the ants keep digging, we keep shilling.
@@ -150,42 +141,41 @@
 
         <section class="section" id="how-to-buy">
           <div class="section-inner">
-            <h2>How to Buy</h2>
-            <div class="steps">
-              <div class="step">
-                <div class="step-number">1</div>
-                <h3>Open pump.fun</h3>
-                <p>Go to the Antfun token page using the official link.</p>
+            <h2>How to Buy $ANTFUN</h2>
+
+            <div class="how-contract">
+              <span class="how-contract-label">Contract address</span>
+              <code class="how-contract-address" id="how-contract-address">To be announced</code>
+              <button type="button" class="how-contract-copy" id="how-contract-copy" aria-label="Copy">Copy</button>
+            </div>
+
+            <div class="steps-vertical">
+              <div class="step-block">
+                <div class="step-num">1</div>
+                <h3>Set up a wallet</h3>
+                <p>Get a Solana wallet like Phantom or Solflare (browser extension or app).</p>
               </div>
-              <div class="step">
-                <div class="step-number">2</div>
-                <h3>Connect your wallet</h3>
-                <p>Use Phantom, Solflare or any compatible Solana wallet.</p>
+              <div class="step-block">
+                <div class="step-num">2</div>
+                <h3>Add Solana (SOL)</h3>
+                <p>Buy SOL in your wallet or send it from an exchange to your new wallet.</p>
               </div>
-              <div class="step">
-                <div class="step-number">3</div>
-                <h3>Grab a small bag</h3>
-                <p>
-                  It is a meme, not financial advice. Never bet more than you
-                  can afford to lose.
-                </p>
+              <div class="step-block">
+                <div class="step-num">3</div>
+                <h3>Swap SOL for ANTFUN</h3>
+                <p>Go to pump.fun, connect your wallet, and swap SOL for ANTFUN using the contract address above.</p>
+              </div>
+              <div class="step-block">
+                <div class="step-num">4</div>
+                <h3>You're all set</h3>
+                <p>Your ANTFUN tokens will be in your wallet. It's a meme — never risk more than you can afford to lose.</p>
               </div>
             </div>
 
-            <div class="token-info">
-              <div>
-                <span class="label">Ticker</span>
-                <span class="value">ANTFUN</span>
-              </div>
-              <div>
-                <span class="label">Token address</span>
-                <span class="value mono">To be announced</span>
-              </div>
-              <div class="token-links">
-                <a href="#" target="_blank" rel="noreferrer">pump.fun</a>
-                <a href="#" target="_blank" rel="noreferrer">Dexscreener</a>
-                <a href="#" target="_blank" rel="noreferrer">Solscan</a>
-              </div>
+            <div class="token-links-row">
+              <a href="#" target="_blank" rel="noreferrer">pump.fun</a>
+              <a href="#" target="_blank" rel="noreferrer">Dexscreener</a>
+              <a href="#" target="_blank" rel="noreferrer">Solscan</a>
             </div>
           </div>
         </section>
@@ -328,6 +318,22 @@
         </section>
       </main>
 
+      <section class="accent-strip" id="join">
+        <div class="accent-strip-inner">
+          <div class="accent-socials">
+            <h2 class="accent-title">SOCIALS</h2>
+            <p class="accent-subtitle">Join the ANTFUN colony</p>
+            <div class="accent-icons">
+              <a href="#" class="accent-icon social-x" target="_blank" rel="noreferrer" aria-label="X (Twitter)"></a>
+              <a href="#" class="accent-icon social-tg" target="_blank" rel="noreferrer" aria-label="Telegram"></a>
+              <a href="#" class="accent-icon social-dex" target="_blank" rel="noreferrer" aria-label="Dexscreener"></a>
+            </div>
+          </div>
+          <a href="#stream" class="accent-cta">Watch the stream</a>
+          <div class="accent-brand">ANTFUN</div>
+        </div>
+      </section>
+
       <footer class="footer">
         <p class="disclaimer">
           Antfun is a purely experimental meme project on Solana. No
@@ -341,6 +347,32 @@
     <script>
       document.getElementById("year").textContent =
         new Date().getFullYear().toString();
+
+      // Contract address: top bar is source of truth, sync elsewhere + copy
+      (function () {
+        const el = document.getElementById("contract-address");
+        const btn = document.getElementById("contract-copy");
+        const tokenValue = document.getElementById("token-address-value");
+        const howEl = document.getElementById("how-contract-address");
+        const howBtn = document.getElementById("how-contract-copy");
+        var src = el;
+        if (el) {
+          if (tokenValue) tokenValue.textContent = el.textContent.trim();
+          if (howEl) howEl.textContent = el.textContent.trim();
+        }
+        function copy() {
+          var text = (src && src.textContent) ? src.textContent.trim() : "";
+          if (!text || text === "To be announced") return;
+          navigator.clipboard.writeText(text).then(function () {
+            if (btn) { btn.textContent = "Copied!"; setTimeout(function () { btn.textContent = "Copy"; }, 1500); }
+            if (howBtn) { howBtn.textContent = "Copied!"; setTimeout(function () { howBtn.textContent = "Copy"; }, 1500); }
+          });
+        }
+        if (btn) btn.addEventListener("click", copy);
+        if (el) el.addEventListener("click", copy);
+        if (howBtn) howBtn.addEventListener("click", copy);
+        if (howEl) howEl.addEventListener("click", copy);
+      })();
 
       // Simple lightbox for images
       (function () {
